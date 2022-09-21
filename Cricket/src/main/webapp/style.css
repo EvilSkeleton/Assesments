@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #729fcf;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.background {
+	height: 900px; /* You must set a specified height */
+	background-position: top; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	background-image: url("https://cdn4.vectorstock.com/i/1000x1000/28/93/cricket-stadium-background-vector-15522893.jpg");
+ 	background-color: #cccccc;
+ 	text-align: center;
+}
+.center {
+	text-align: center;
+}
+.topnav {
+  background-color: #729fcf;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FF4A4A;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #6FEDD6;
+  color: black;
+}
+
+.topnav-right {
+	float: right;
+}

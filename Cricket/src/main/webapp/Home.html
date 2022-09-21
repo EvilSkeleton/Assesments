@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body class="background">
+	<h1>Add New Player</h1>
+	<div align="center">
+	<form action="SaveServlet" method="post">
+		<table>
+		
+			<tr>
+				<td>Jersey No:</td>
+				<td><input type="text" name="id" /></td>
+			</tr>
+			
+			<tr>
+				<td>Player Name:</td>
+				<td><input type="text" name="name" /></td>
+			</tr>
+			<tr>
+				<td>No of Matches:</td>
+				<td><input type="text" name="match" /></td>
+			</tr>
+			<tr>
+				<td>No of Runs:</td>
+				<td><input type="text" name="runs" /></td>
+			</tr>
+			<tr>
+				<td>No of Wickets:</td>
+				<td><input type="text" name="wicket" /></td>
+			</tr>
+			<tr>
+				<td>No of Out on Zero:</td>
+				<td><input type="text" name="zero" /></td>
+			</tr>
+			<tr>
+				<td>Player Type:</td>
+				<td><select name="position" style="width: 150px">
+						<option value="Batsman">Batsman</option>
+						<option value="Bowler">Bowler</option>
+						<option value="Wicket-Keeper">Wicket-Keeper</option>
+						<option value="All-Rounder">All-Rounder</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Save Player" /></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+
+	<br />
+	<a href="ViewServlet">view players</a>
+</body>
+</html>
